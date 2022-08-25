@@ -20,23 +20,3 @@ if (age >= 21 && height == 'tall') {
 }
 
 
-// let time = new Date().getHours();
-// console.log(time);
-
-let time = 24;
-
-if(time <= 8){
-    console.log('early morning');
-} else if(time < 12 && time > 8){
-    console.log("morning");
-} else if(time >= 12 && time < 13){
-    console.log('LunchTime');
- } else if(time >= 13 && time < 17){
-    console.log('afternoon');
- } else if (time >= 17 && time <= 20){
-    console.log("evening");
- } else if(time >= 21 && time <= 23){
-    console.log('Night');
- } else {
-    console.log('midnight');
- }
